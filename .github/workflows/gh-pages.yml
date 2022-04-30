@@ -8,12 +8,11 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - uses: actions/checkout@v2
-        with:
-          submodules: true # Checkout private submodules(themes or something else).
-      - run: yarn --non-interactive --silent --ignore-scripts --production=false
-      - run: yarn build
+      # - uses: c-hive/gha-yarn-cache@v2
+      # - run: yarn --non-interactive --silent --ignore-scripts --production=false
+      # - run: yarn build
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          publish_dir: ./dist
