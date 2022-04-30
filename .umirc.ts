@@ -31,7 +31,7 @@ export default defineConfig({
   },
   publicPath:
     process.env.NODE_ENV === 'production'
-      ? '//cdn.jsdelivr.net/gh/chouxiangci/chouxiangci.github.io@gh-pages/'
+      ? '//cdn.jsdelivr.net/gh/chouxiangc/chouxiangc.github.io@gh-pages/'
       : '/',
   // more config: https://d.umijs.org/config
 });
