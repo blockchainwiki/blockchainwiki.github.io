@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "chouxiangci",
+  "name": "chouxiangc",
   "scripts": {
     "start": "dumi dev",
     "build": "dumi build",
