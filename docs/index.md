@@ -1,4 +1,5 @@
 ---
+title: 区块链百科 - 做区块链世界最好用的工具网站。
 hero:
   title: 区块链百科
   desc: 做区块链世界最好用的工具网站。
@@ -6,7 +7,7 @@ hero:
   actions:
     - text: 矿快报
       link: https://latestminer.github.io/
-footer: Copyright ©区块链百科 2020
+footer: Copyright ©区块链百科 2022
 ---
 
 ## 联系我们
