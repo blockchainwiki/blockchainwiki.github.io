@@ -5,7 +5,7 @@ export default defineConfig({
   hash: true,
   exportStatic: {},
   sitemap: {
-    hostname: 'https://chouxiangc.github.io',
+    hostname: 'https://blockchainwiki.github.io',
   },
   theme: {
     '@c-primary': '#e72e14',
@@ -14,9 +14,9 @@ export default defineConfig({
   styles: ['a[title=站长统计] { display: none; }'],
   publicPath:
     process.env.NODE_ENV === 'production'
-      ? '//cdn.jsdelivr.net/gh/chouxiangc/chouxiangc.github.io@gh-pages/'
+      ? '//cdn.jsdelivr.net/gh/blockchainwiki/blockchainwiki.github.io@gh-pages/'
       : '/',
-  title: '抽象词',
+  title: '区块链百科',
   mode: 'site',
   favicon: 'https://s2.loli.net/2022/04/30/VUJmAZy9hFnzt5M.png',
   logo: 'https://s2.loli.net/2022/04/30/VUJmAZy9hFnzt5M.png',
@@ -27,16 +27,16 @@ export default defineConfig({
   metas: [
     {
       name: 'title',
-      content: '抽象词',
+      content: '区块链百科',
     },
     {
       name: 'keywords',
       content:
-        '抽象词, 语言学, 逻辑学, 离散, 集合论, 抽象代数, 概率论, 科普笔记, 人生思考',
+        '区块链, 以太坊, 比特币, 加密货币, 虚拟货币, BTC, ETH, BlockChain, Ethereum, Crypto Currency, Metaverse',
     },
     {
       name: 'description',
-      content: '词汇是一个人认知的边界，越远越抽象。',
+      content: '做最好的区块链世界工具网站。',
     },
   ],
   navs: [
