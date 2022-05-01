@@ -11,3 +11,10 @@ hero:
       link: https://latestminer.github.io/
 footer: Copyright ©抽象词 2020
 ---
+
+## 联系我们
+
+- 邮箱: billvvv@163.com
+- Telegram 群: https://t.me/latest_staking
+- NFT 讨论 QQ 群：`830405985`
+- 微信闲聊群: `ChinaMaths`
